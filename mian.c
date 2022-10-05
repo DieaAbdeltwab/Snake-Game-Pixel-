@@ -15,7 +15,6 @@ typedef struct part
 {
   s16 Row,Column;
   enum Snake_enumDirection Direction;
-  struct part *next;
 } part;
 
 #define  Snake_LCD_HEIGHT                  16
