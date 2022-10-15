@@ -14,7 +14,7 @@
 #define LOW               0
 
 void KPD_voidInit(void);
-u8 KPD_u8GetPressdKey(void);
-u8 KPD_u8GetKeyState(void);
+u8 KPD_u8GetPressdKey_IMT(void);
+u8 KPD_u8GetKeyState_HC_543(void);
 
 #endif
